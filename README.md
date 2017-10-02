@@ -5,8 +5,10 @@ It will have the following features:
 <li>The administrator will be able to create, update, and delete departments and roles
 <li>The administrator will be able to assign employees to a department and assign them roles
 <li>The administrator will be able to view all employees and their details
-
+    
+    
 A demo can be accessed at http://lehruangela.pythonanywhere.com/
+<ul>To access the administrator features, login using username:admin@admin.com and password:admin2016
     
 
 
