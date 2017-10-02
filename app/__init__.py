@@ -15,8 +15,8 @@ def create_app(config_name):
     if os.getenv('FLASK_CONFIG') == "production":
         app = Flask(__name__)
         app.config.update(
-            SECRET_KEY=os.getenv('SECRET_KEY'),
-            SQLALCHEMY_DATABASE_URI=os.getenv('SQLALCHEMY_DATABASE_URI')
+            SECRET_KEY=os.getenv('p9Bv<3Eid9%$i01'),
+            SQLALCHEMY_DATABASE_URI=os.getenv('mysql://LehruAngela:databasewhurt@LehruAngela.mysql.pythonanywhere-services.com/LehruAngela$dreamteam_db$')
         )
     else:
         app = Flask(__name__, instance_relative_config=True)
